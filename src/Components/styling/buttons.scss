@@ -1,0 +1,39 @@
+@import './variables';
+
+// buttons and navigation links styling
+.button {
+    background-color: $boxBackground;
+    color:$text;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    border: 2px solid $borders;
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:active {
+        background-color: $text;
+        color:$boxBackground;
+    }
+}
+
+.nav {
+    border: 2px solid $borders;
+    background-color: $boxBackground;
+    color:$text;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    border: 2px solid $borders;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 10px;
+
+    &:active {
+        background-color: $text;
+        color:$boxBackground;
+    }
+}
